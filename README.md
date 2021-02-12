@@ -9,7 +9,7 @@ In my own experience modding a PS2, I ran into tutorial after tutorial with crap
 * [Recordable DVD-R](<https://www.microcenter.com/product/434201/philips-dvd-r-16x-47-gb-120-minute-disc-2-pack-zip-pouch>) - $0.99 - Just a simple recordable DVD you can buy anywhere. **MUST BE DVD, PS2 DOESN'T READ CDs (LEARNED THE HARD WAY)**
 * [CD/DVD Reader/Writer](<https://www.amazon.com/External-Blingco-Protable-Notebook-Computer/dp/B072BR5VWK/ref=sr_1_16?crid=I9NZPGU0XGEJ&dchild=1&keywords=external+dvd+drive&qid=1613108803&sprefix=External+DVD+%2Caps%2C273&sr=8-16>) - $15 - My laptop had one built in but you can buy external USB ones off Amazon
 * [USB 2.0/3.0/3.1 Drive (+8GB Recommended)](<https://www.amazon.com/SanDisk-Cruzer-128GB-Flash-SDCZ36-128G-B35/dp/B00TKFCYP0/ref=sr_1_3?dchild=1&keywords=USB&qid=1613108962&sr=8-3>) - $15 - Most games take up around 2-4GB so you're gonna want a lot of space
-* [Playstation 2 MagicGate Memory Card](<(<https://www.amazon.com/SanDisk-Cruzer-128GB-Flash-SDCZ36-128G-B35/dp/B00TKFCYP0/ref=sr_1_3?dchild=1&keywords=USB&qid=1613108962&sr=8-3>)>) - $10 - Will store FMCB Config files **(recommend using MC that came w/ PS2)**
+* [Playstation 2 MagicGate Memory Card](<https://www.amazon.com/SanDisk-Cruzer-128GB-Flash-SDCZ36-128G-B35/dp/B00TKFCYP0/ref=sr_1_3?dchild=1&keywords=USB&qid=1613108962&sr=8-3>) - $10 - Will store FMCB Config files **(recommend using MC that came w/ PS2)**
 
 ### SOFTWARE
 * [USBUtil](<https://www.ps2-home.com/forum/viewtopic.php?t=1240>) - Used for writing ISOs to Flash Drive **(download v2.2 EN/SP)**
