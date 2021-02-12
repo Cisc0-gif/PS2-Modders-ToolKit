@@ -24,11 +24,11 @@ In my own experience modding a PS2, I ran into tutorial after tutorial with crap
 
 ### FreeDVDBoot - Windows Method
 
-Insert your DVD into your DVD Drive and then go to your FreeDVDBoot iso (it should be called something like All PS2 Slims - English language.iso) and right click on it. A pop-up should appear "Burn iso" or "Burn to DVD" or something, click it. From their a window should appear, click "Verify after burning" and run. Your iso should burn to the DVD and your done!
+Insert your DVD into your DVD Drive and then go to your FreeDVDBoot iso (it should be called something like All PS2 Slims - English language.iso) and right click on it. A pop-up should appear ``` Burn iso ``` or ``` Burn to DVD ``` or something, click it. From their a window should appear, click ``` Verify after burning ``` and run. Your iso should burn to the DVD and your done!
 
 ### FreeDVDBoot - ImgBurn Method
 
-Insert your DVD into your DVD Drive and then run ImgBurn. From there, select "Write Image file to disc" and set "Source" to the iso and "Destination" to your USB drive. Next, set the "Write Speed" to the slowest one your DVD allows (it should be printed on DVD) and then click on the File -> Disc icon to burn.
+Insert your DVD into your DVD Drive and then run ImgBurn. From there, select ``` Write Image file to disc ``` and set Source to the iso and "Destination" to your USB drive. Next, set the ``` Write Speed ``` to the slowest one your DVD allows (it should be printed on DVD) and then click on the ``` File -> Disc ``` icon to burn.
 
 ### Prepping USB Flash Drive
 
@@ -36,7 +36,7 @@ Insert your USB Flash drive into your computer and then right click on it in fil
 
 ### Installing FMCB and OPL on PS2
 
-Insert the DVD into the player and the USB into the first slot (left one) and then turn the PS2 on. You should boot in a gray file explorer called "LaunchELF" and from there click on mass:/ and then the FMCB folder. Click on the file FMCBInstaller.elf to run the installer and click on "Install" (NOT multi-install).
+Insert the DVD into the player and the USB into the first slot (left one) and then turn the PS2 on. You should boot in a gray file explorer called ``` LaunchELF ``` and from there click on ``` mass:/ ``` and then the FMCB folder. Click on the file ``` FMCBInstaller.elf ``` to run the installer and click on ``` Install ``` (NOT multi-install).
 
 Once FMCB is installed, restart the PS2 and you should boot into a new Menu UI. Scroll down to ``` uLaunchELF ``` and click on it, taking you back to the file explorer. This time, go to ``` mass:/ ``` and then press R1 on ``` OPL 0.9.2.ELF ``` and then ``` Copy ```. Now go to ``` mc0:/BOOT/ ``` and on ``` ../ ``` press R1 and then ``` Paste ``` to paste it. Then restart the PS2.
 
