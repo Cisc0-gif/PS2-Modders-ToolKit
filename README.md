@@ -38,11 +38,11 @@ Insert your USB Flash drive into your computer and then right click on it in fil
 
 Insert the DVD into the player and the USB into the first slot (left one) and then turn the PS2 on. You should boot in a gray file explorer called "LaunchELF" and from there click on mass:/ and then the FMCB folder. Click on the file FMCBInstaller.elf to run the installer and click on "Install" (NOT multi-install).
 
-Once FMCB is installed, restart the PS2 and you should boot into a new Menu UI. Scroll down to uLaunchELF and click on it, taking you back to the file explorer. This time, go to mass:/ and then press R1 on "OPL 0.9.2.ELF" and then 'Copy'. Now go to mc0:/BOOT/ and on ../ press R1 and then 'Paste' to paste it. Then restart the PS2.
+Once FMCB is installed, restart the PS2 and you should boot into a new Menu UI. Scroll down to ``` uLaunchELF ``` and click on it, taking you back to the file explorer. This time, go to ``` mass:/ ``` and then press R1 on ``` OPL 0.9.2.ELF ``` and then ``` Copy ```. Now go to ``` mc0:/BOOT/ ``` and on ``` ../ ``` press R1 and then ``` Paste ``` to paste it. Then restart the PS2.
 
-Once back in the menu, click on Free MCBoot Configurator and click on 'Configure OSDSYS options...'. Now scroll down to 'Configure Item 1: LaunchELF' and press -> on the dpad until you get to a blank space, then press enter. Set the name to OPL and click on 'Path1: ' and navigate to mc0:/BOOT/OPL 0.9.2.ELF and press enter. Then go to return and click 'Save CNF to MC0' and then 'Exit'.
+Once back in the menu, click on Free MCBoot Configurator and click on ``` Configure OSDSYS options... ```. Now scroll down to ``` Configure Item 1: LaunchELF ``` and press ``` -> ``` on the dpad until you get to a blank space, then press enter. Set the name to OPL and click on ``` Path1: ``` and navigate to ``` mc0:/BOOT/OPL 0.9.2.ELF ``` and press enter. Then go to return and click ``` Save CNF to MC0 ``` and then ``` Exit ```
 
-Lastly, run OPL in the menu, go to Settings and set 'Disable Debug Colors' to 'Off', 'Check USB Fragmentation' to 'On', 'USB device start mode' to 'Auto', and 'Default menu' to 'USB Games'. Then click 'Ok' and go to 'Display Settings' and set 'Automatic Sorting', 'Automatic Refresh', 'Enable Cover Art', and 'Dispaly info page' all to 'On'. Then click 'Ok' and then 'Save changes'.
+Lastly, run OPL in the menu, go to Settings and set ``` Disable Debug Colors ``` to ``` Off ```, ``` Check USB Fragmentation ``` to ``` On ```, ``` USB device start mode ``` to ``` Auto ```, and ``` Default menu ``` to ``` USB Games ```. Then click ``` Ok ``` and go to ``` Display Settings``` and set ``` Automatic Sorting ```, ``` Automatic Refresh ```, ``` Enable Cover Art ```, and ``` Dispaly info page ``` all to ``` On ```. Then click ``` Ok ``` and then ``` Save changes ```
 
 Then that's it! You've successfully installed FMCB v1.966 and OPL v0.9.2 to your PS2 and you can now turn it off, remove the disc (you won't need it anymore), and remove the USB (you will need this).
 
@@ -50,21 +50,21 @@ Then that's it! You've successfully installed FMCB v1.966 and OPL v0.9.2 to your
 
 ### Prepping USB Drive for Games
 
-Now that we've successfully installed FMCB and OPL, format your drive once more (Max capacity, FAT32, Default Allocation) and create 2 folders in it called "CD" and "DVD".
+Now that we've successfully installed FMCB and OPL, format your drive once more (Max capacity, FAT32, Default Allocation) and create 2 folders in it called ``` CD ``` and ``` DVD ```.
 
 ### Writing Game ISOs with USBUtil v2.2
 
-Now run USBUtil v2.2 and go to File > Create GAME from ISO and set your source to a compatible PS2 ROM ISO and your Destination to the root of your USB Drive (F:\, D:\, etc...). Then select "DVD" for "Media" and then "Create".
+Now run USBUtil v2.2 and go to ``` File > Create GAME from ISO ``` and set your Source to a compatible PS2 ROM ISO and your Destination to the root of your USB Drive (F:\, D:\, etc...). Then select ``` DVD ``` for ``` Media ``` and then ``` Create ```.
 
 ### Settings OPL Compatibility with OPL Manager v21.7
 
-Now that your game is written to the drive, run OPL Manager and set your filepath to the drive root (again F:\, D:\, etc...). From there select your game (which should already be formatted, if not it's an easy fix but I'm lazy so look it up or figure it out :) ) and click 'Manage ARTs' and click the middle icon to import game art for the OPL menu. That's it!
+Now that your game is written to the drive, run OPL Manager and set your filepath to the drive root (again F:\, D:\, etc...). From there select your game (which should already be formatted, if not it's an easy fix but I'm lazy so look it up or figure it out :) ) and click ``` Manage ARTs ``` and click the **middle icon** to import game art for the OPL menu. That's it!
 
 ### Defragging USB Drive with Auglogics Disk Defrag Tool
 
 The last and most important step is to defrag our drive, if any files are fragmented the game won't be able to run. Unfortunately, Windows doesn't support USB Drive Defragging so we will use Auglogics.
 
-Run Auglogics Disk Defrag, uncheck all drives, and then check your drive and click 'Defrag'. It should defrag and that's it, you're done! Plug the USB back into your PS2, run OPL, and your games should appear in the menu and all be playable!
+Run Auglogics Disk Defrag, uncheck all drives, and then check your drive and click ``` Defrag ```. It should defrag and that's it, you're done! Plug the USB back into your PS2, run OPL, and your games should appear in the menu and all be playable!
 
 ## Simpler Instructions
 
@@ -86,3 +86,9 @@ Installing FMCB & OPL
 7. run OPL, go to settings and set 'Check USB Fragmentation' to 'On', Display settings and turn "Notifications, Cover Art, and Auto Refresh" all "On".
 8. Restart PS2
 9. Run OPL and run games!
+
+## Things I Don't Recommend
+
+1. Using an external HDD or SDD. PS2 just froze trying to read even a blank 2.5".
+
+2. Using the SMB method. I tried crossover cables, using the router, and a whole host of different settigs for windows but couldn't get it to work. People hail this method as the fastest but I think USB works just fine.
