@@ -56,7 +56,7 @@ Now that we've successfully installed FMCB and OPL, format your drive once more 
 
 Now run USBUtil v2.2 and go to ``` File > Create GAME from ISO ``` and set your Source to a compatible PS2 ROM ISO and your Destination to the root of your USB Drive (F:\, D:\, etc...). Then select ``` DVD ``` for ``` Media ``` and then ``` Create ```.
 
-### Settings OPL Compatibility with OPL Manager v21.7
+### Setting OPL Compatibility with OPL Manager v21.7
 
 Now that your game is written to the drive, run OPL Manager and set your filepath to the drive root (again F:\, D:\, etc...). From there select your game (which should already be formatted, if not it's an easy fix but I'm lazy so look it up or figure it out :) ) and click ``` Manage ARTs ``` and click the **middle icon** to import game art for the OPL menu. That's it!
 
@@ -92,3 +92,14 @@ Installing FMCB & OPL
 1. Using an external HDD or SDD. PS2 just froze trying to read even a blank 2.5".
 
 2. Using the SMB method. I tried crossover cables, using the router, and a whole host of different settigs for windows but couldn't get it to work. People hail this method as the fastest but I think USB works just fine.
+
+3. Do **NOT** try to delete games off drive manually. **Don't touch the ul.cfg** file as it has very specific spaces for its syntax and delete or adding an extra one could mess up the entire registry and thus, your game data as well ( lost a good 2 hours on Shadow of the Colossus for this :( ). If you want to delete a game off the USB drive **use the delete button in OPL**, it was made for this purpose.
+
+4. Using a small USB drive. I tried putting as many games as I could on a 14 GB GB, the last game I added was permanently fragmented and it took a re-format to fix it. Bigger drives will always be more dependable.
+
+## Working Games
+
+* Shadow of the Colossus
+* Monter Hunter
+* Resident Evil 4
+* Katamari Damacy
