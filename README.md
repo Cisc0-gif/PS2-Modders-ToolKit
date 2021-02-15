@@ -97,7 +97,7 @@ Installing FMCB & OPL
 
 4. Using a small USB drive. I tried putting as many games as I could on a 14 GB GB, the last game I added was permanently fragmented and it took a re-format to fix it. Bigger drives will always be more dependable.
 
-## Working Games
+## Working Games (that I personally tested so far)
 
 * Shadow of the Colossus
 * Monter Hunter
